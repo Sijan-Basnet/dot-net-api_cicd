@@ -17,7 +17,7 @@ namespace learn_cicd.Controllers
         [HttpPost]
         public IActionResult post(List<string> list)
         {
-            list.Add("c");
+            list.Add("cd");
             return Ok(list);
         }
     }
